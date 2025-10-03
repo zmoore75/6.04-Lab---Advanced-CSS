@@ -1,29 +1,75 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+/* Default font */
+body {
+  font-family: Roboto, Helvetica, sans-serif;
 }
 
+/* Heading */
+h1 {
+  font-size: 16px;
+  color: #444444;
+}
+
+/* Container class */
+.container {
+  text-align: center;
+  margin: 5px;
+  font-size: 13px;
+}
+
+/* Offer sections */
+.offer {
+  display: inline-block;
+  width: 400px;
+  margin: 4px;
+  text-align: center;
+  border: 1px solid #cccccc;
+  vertical-align: top;
+}
+
+/* Offer title */
+.offer-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #00b3b3;
+  margin: 0;
+  padding: 15px;
+}
+
+/* Offer contents */
+.offer-contents {
+  padding: 20px;
+  background-color: #fafafa;
+}
+
+/* Tables */
 table {
-  border-collapse: collapse;
   width: 100%;
-  margin-bottom: 20px;
-}
-
-th, td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
+  background-color: #ffffff;
+  border-spacing: 0;
 }
 
 th {
-  background-color: #f2f2f2;
+  font-size: 12px;
   font-weight: bold;
+  color: #777777;
+  padding: 10px;
+  margin: 0;
+  text-align: left;
+  border-bottom: 1px solid #f1f1f1;
 }
 
-tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
+td {
+  font-weight: lighter;
+  color: #444444;
+  padding: 20px 10px;
+  margin: 0;
+  text-align: left;
+  border-bottom: 1px solid #f1f1f1;
 }
 
-tbody tr:hover {
-  background-color: #e9e9e9;
+/* Final value */
+.final-value {
+  font-weight: bold;
+  color: #2222ff;
 }
